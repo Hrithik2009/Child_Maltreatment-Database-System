@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>About us(CMDS)</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+
+  <style>
+  div
+  {
+  text-align: justify;
+  text-justify: inter-word;
+   }
+   h2{
+    text-align: center;
+   }
+
+
+</style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <!--<a class="navbar-brand" href="#">Start Bootstrap</a> -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../homepage.jsp">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Acts.html">Acts & Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Activities.html">Activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact_Us.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../AdminLogin">Admin Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">CHILD MALTREAMENT DATABASE SYSTEM</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    <!-- /.row -->
+        <h2>NewsLetter</h2>
+        <hr>
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="4.jpg" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="5.jpg" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="6.jpg" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+            <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="2.png" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+            <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="3.jpg" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+            <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="1.jpg" alt="">
+          <div class="card-body">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright @2020 All Rights reserved | This Website is made by Hrithik pandey</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
